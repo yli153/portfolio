@@ -31,6 +31,10 @@ a {
     color: grey !important;
 }
 
+h2 {
+    display: inline;
+}
+
 .nav-link {
     color:rgba(0, 0, 0, 0.6) !important;
 }
@@ -49,8 +53,19 @@ a {
     height: 3rem;
 }
 
-.half-highlight {
-    background: linear-gradient(to top, #e8dfe0 50%, transparent 50%);
+.half-highlight-1 {
+    background: linear-gradient(to top, #ffe1d0 50%, transparent 50%);
+}
+
+.half-highlight-2 {
+    background: linear-gradient(to top, #fef6dd 50%, transparent 50%);
+}
+
+.half-highlight-3 {
+    background: linear-gradient(to top, #dcf3d0 50%, transparent 50%);
+}
+.half-highlight-4 {
+    background: linear-gradient(to top, #b5e9e9 50%, transparent 50%);
 }
 
 .header {
@@ -61,8 +76,8 @@ a {
 
 .content {
     padding-top: 5rem !important;
-    padding-left: 10rem !important; 
-    padding-right: 10rem !important; 
+    padding-left: 15rem !important; 
+    padding-right: 15rem !important; 
 }
 
 .arrow-color {
@@ -92,4 +107,14 @@ a {
   .row {
       display: flex;
       align-items:center;
+      margin-bottom: 8rem;
   }
+
+  .footer {
+      background-color: rgba(255, 225, 208, 0.3);
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+  }
+
+
+
