@@ -1,14 +1,90 @@
 <!doctype html>
 
-<html>
+<html lang="en">
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <main>
+      <nav class="navbar navbar-expand-sm navbar-light sticky-top navbar-inner" style="background-color: white;">
+        <a class="navbar-brand half-highlight" href="#"><b><i>Sophia.</i></b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Persona</a>
+                <a class="dropdown-item" href="#">Redesign</a>
+                <a class="dropdown-item" href="#">Iterative Design</a>
+                <a class="dropdown-item" href="#">Development</a>  
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid header fwh-slide">
+        <h1><b>Hello! I'm Sophia.</b><img src="images/star_emoji.PNG" alt="star icon" class="star-icon"></h1>
+        <p style="margin-right: 20rem; font-size: 1.2rem;">I'm a user experience designer with a background in business and economics and a mix of love for human-centered designs and visual aesthetics. I am
+          passionate about crafting unique, memorable and delightful user experiences.  
+        </p>
+        <div class="arrow-icon">
+          <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-down arrow-color" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container-fluid content fwh-slide">
+        <div class="row mb-5">
+          <div class="column col-sm-6">
+            <h2><b>Persona</b></h2>
+            <br>
+            <p style="color:#727272">STUDENT PROJECT | FALL 2020</p>
+            <p>Interviewing real users, creating personas and storyboarding to understand user experience</p>
+            <br>
+            <a href=""><u>View Project Details ></u></a>
+
+          </div>
+          <div class="column col-sm-6">
+            <img src="images/personas_preview.PNG" src="personas preview" class="project-preview">
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="column col-sm-6">
+            <h2><b>Website Redesign</b></h2>
+            <br>
+            <p style="color:#727272">STUDENT PROJECT | FALL 2020</p>
+            <p>Interviewing real users, creating personas and storyboarding to understand user experience</p>
+
+          </div>
+          <div class="column col-sm-6">
+            <img src="images/personas_preview.PNG" src="personas preview" class="project-preview">
+          </div>
+        </div>
+       
+        
+
+
+      </div>
+     
+    </main>
   </body>
 </html>
