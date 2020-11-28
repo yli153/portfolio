@@ -22,7 +22,7 @@
 
 main {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-    margin: 0 auto;
+    margin: 0 0;
     background-color: white;
     min-height: 100vh;
 }
@@ -35,6 +35,12 @@ h2 {
     display: inline;
 }
 
+.navbar {
+    padding-top: 1.2vw !important;
+    padding-bottom: 1.2vw !important;
+    background-color: #fef6dd;
+}
+
 .nav-link {
     color:rgba(0, 0, 0, 0.6) !important;
 }
@@ -45,8 +51,8 @@ h2 {
 }
 
 .star-icon {
-    width: 3rem;
-    height: 3rem;
+    width: 3.5vw;
+    height: 3.5vw;
 }
 
 .half-highlight-1 {
@@ -65,15 +71,19 @@ h2 {
 }
 
 .header {
-    padding-top: 20rem;
-    padding-left: 20rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30vh !important;
+    padding-left: 25vw !important;
+    padding-right: 25vw !important;
     background-color: #fef6dd;
 }
 
 .content {
-    padding-top: 5rem !important;
-    padding-left: 15rem !important; 
-    padding-right: 15rem !important; 
+    padding-top: 8vh !important;
+    padding-left: 15vw !important; 
+    padding-right: 15vw !important; 
 }
 
 .fa-angle-down {
@@ -125,13 +135,13 @@ h2 {
   .row {
       display: flex;
       align-items:center;
-      margin-bottom: 8rem;
+      margin-bottom: 15vh;
   }
 
   .footer {
       background-color: rgba(255, 225, 208, 0.3);
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
   }
 
 
