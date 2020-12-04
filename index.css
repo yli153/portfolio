@@ -36,6 +36,18 @@ h2 {
     display: inline;
 }
 
+.active a {
+    color: #6131ff !important;
+}
+
+.header-link:hover {
+    color: #6131ff !important;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
 .inner-link {
     color: black !important;
 }
@@ -100,7 +112,7 @@ h2 {
 }
 
 .fa-angle-down:hover {
-    color: rgba(114, 114, 114, 0.8);
+    color: rgba(114, 114, 114, 0.9);
 }
 
 .bounce {
