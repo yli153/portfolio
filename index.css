@@ -36,6 +36,14 @@ h2 {
     display: inline;
 }
 
+.inner-link {
+    color: black !important;
+}
+
+.inner-link:hover {
+    color: #6131ff !important;
+}
+
 .navbar {
     padding-top: 1.2vw !important;
     padding-bottom: 1.2vw !important;
